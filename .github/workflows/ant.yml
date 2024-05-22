@@ -23,9 +23,6 @@ jobs:
         distribution: 'temurin'
     - name: Build with Ant
       run: java src/Main.java -d out
-
-    - name: Rodando Programa
-      run: java -cp out Main
       
     - name: mensagem de sucesso
       run: echo DEU GREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEN
